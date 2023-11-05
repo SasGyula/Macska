@@ -201,16 +201,36 @@
 .esemenyeink {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
     background-color: rgba(78, 73, 73, 0.568);
     color:white;
     padding: 10px;
     border-radius: 10px;
-    gap: 25px;
     border: solid rgb(99, 92, 92) ;
+   
 }
 .esemenyeink p {
     text-align: left;
+    margin-left: 0px;
 
 
+}
+.esemenyeink h2 {
+    text-align: left;
+    margin: auto;
 
+}
+.esemenyeink ul {
+    list-style: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    border: solid orange;
+
+}
+.esemenyeink a {
+    text-decoration: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
 }
